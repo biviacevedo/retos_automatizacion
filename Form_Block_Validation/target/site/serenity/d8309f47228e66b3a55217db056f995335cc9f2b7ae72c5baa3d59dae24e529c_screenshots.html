@@ -1,0 +1,357 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="81f1163a987a9f460d13909b67f00a99d81148760d88174ca45892038514882f.html">Formulario Block Validation</a></span>
+                > <span class="truncate-60"><a
+                    href="d8309f47228e66b3a55217db056f995335cc9f2b7ae72c5baa3d59dae24e529c.html">Diligenciamiento con errores del formulario BlockValitadion, </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-06-2020 11:04</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Formulario Block Validation </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                El usuario debe poder ingresar al formulario los datos requeridos.<br />
+Cada campo del formulario realiza validaciones de obligatoriedad,<br />
+longitud y formato, el sistema debe presentar las validaciones respectivas<br />
+para cada campo a través de un globo informativo.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="773a571d092c5846a3019576b732f5fa2a9b129891c011c10cda8839a7f193e0.html">Regresion
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="42ea485c484318c8368c0a121d702ecff586b72bc34c964b6edfbd53a4772191.html">Casoalterno
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Diligenciamiento con errores del formulario BlockValitadion,
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Autentico en colorlib con usuario "demo" y clave "demo"<br>And Ingreso a la funcionalidad Forms Validation y Block Validation<br>When Diligencio los campos &lt;Required&gt;,&lt;Email&gt;,&lt;Password1&gt;,&lt;Password2&gt;,&lt;Date&gt;,&lt;Url&gt;,&lt;Digits Only&gt;,&lt;Range&gt;<br>Then Verifico que se presente un mensaje de error</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Example: {Required=&quot;&quot;, Email=&quot;ejemplo@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor1&quot;, Date=&quot;01062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;123&quot;, Range=&quot;15&quot;}" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Login color lib: demo, demo" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot; (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Ingresar form blockvalidation" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar form blockvalidation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" When Diligencio los campos &quot;&quot;,&quot;ejemplo@mail.com&quot;,&quot;valor1&quot;,&quot;valor1&quot;,&quot;01062020&quot;,&quot;http://www.valor.com&quot;,&quot;123&quot;,&quot;15&quot;" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar datos form: , ejemplo@mail.com, valor1, valor1, 01062020, http://www.valor.com, 123, 15" width="1366"/>
+                <img src="6a093d649ec8da6fbc1f51074803dacdc43e916666b381502f4657eb2a2c36cc.png" title=" Ingresar datos form: , ejemplo@mail.com, valor1, valor1, 01062020, http://www.valor.com, 123, 15 (completed)" width="1366"/>
+                <img src="6a093d649ec8da6fbc1f51074803dacdc43e916666b381502f4657eb2a2c36cc.png" title=" When Diligencio los campos &quot;&quot;,&quot;ejemplo@mail.com&quot;,&quot;valor1&quot;,&quot;valor1&quot;,&quot;01062020&quot;,&quot;http://www.valor.com&quot;,&quot;123&quot;,&quot;15&quot; (completed)" width="1366"/>
+                <img src="6a093d649ec8da6fbc1f51074803dacdc43e916666b381502f4657eb2a2c36cc.png" title=" Then Verifico que se presente un mensaje de error" width="1366"/>
+                <img src="6a093d649ec8da6fbc1f51074803dacdc43e916666b381502f4657eb2a2c36cc.png" title=" Verificar ingreso datos con error" width="1366"/>
+                <img src="4c9fa6fe19d8cbffaa7579dd86f8e4ca875480237bab41537d64f67605b93221.png" title=" Verificar ingreso datos con error (completed)" width="1366"/>
+                <img src="4c9fa6fe19d8cbffaa7579dd86f8e4ca875480237bab41537d64f67605b93221.png" title=" Then Verifico que se presente un mensaje de error (completed)" width="1366"/>
+                <img src="4c9fa6fe19d8cbffaa7579dd86f8e4ca875480237bab41537d64f67605b93221.png" title=" Example: {Required=&quot;&quot;, Email=&quot;ejemplo@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor1&quot;, Date=&quot;01062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;123&quot;, Range=&quot;15&quot;} (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Example: {Required=&quot;Ejempplo3&quot;, Email=&quot;ejemplo@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor1&quot;, Date=&quot;02062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;gsd&quot;, Range=&quot;6&quot;}" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Login color lib: demo, demo" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot; (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Ingresar form blockvalidation" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar form blockvalidation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" When Diligencio los campos &quot;Ejempplo3&quot;,&quot;ejemplo@mail.com&quot;,&quot;valor1&quot;,&quot;valor1&quot;,&quot;02062020&quot;,&quot;http://www.valor.com&quot;,&quot;gsd&quot;,&quot;6&quot;" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar datos form: Ejempplo3, ejemplo@mail.com, valor1, valor1, 02062020, http://www.valor.com, gsd, 6" width="1366"/>
+                <img src="43cc6bc49c2d71f21f32266c68a536f226e331ef2706f11e45de691fa1b1c261.png" title=" Ingresar datos form: Ejempplo3, ejemplo@mail.com, valor1, valor1, 02062020, http://www.valor.com, gsd, 6 (completed)" width="1366"/>
+                <img src="43cc6bc49c2d71f21f32266c68a536f226e331ef2706f11e45de691fa1b1c261.png" title=" When Diligencio los campos &quot;Ejempplo3&quot;,&quot;ejemplo@mail.com&quot;,&quot;valor1&quot;,&quot;valor1&quot;,&quot;02062020&quot;,&quot;http://www.valor.com&quot;,&quot;gsd&quot;,&quot;6&quot; (completed)" width="1366"/>
+                <img src="43cc6bc49c2d71f21f32266c68a536f226e331ef2706f11e45de691fa1b1c261.png" title=" Then Verifico que se presente un mensaje de error" width="1366"/>
+                <img src="43cc6bc49c2d71f21f32266c68a536f226e331ef2706f11e45de691fa1b1c261.png" title=" Verificar ingreso datos con error" width="1366"/>
+                <img src="09797e46181c8ae6946c8a754c02d06c108ee4742d7fcc1b95758c413690b20f.png" title=" Verificar ingreso datos con error (completed)" width="1366"/>
+                <img src="09797e46181c8ae6946c8a754c02d06c108ee4742d7fcc1b95758c413690b20f.png" title=" Then Verifico que se presente un mensaje de error (completed)" width="1366"/>
+                <img src="09797e46181c8ae6946c8a754c02d06c108ee4742d7fcc1b95758c413690b20f.png" title=" Example: {Required=&quot;Ejempplo3&quot;, Email=&quot;ejemplo@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor1&quot;, Date=&quot;02062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;gsd&quot;, Range=&quot;6&quot;} (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplomail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor1&quot;, Date=&quot;02062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;456&quot;, Range=&quot;7&quot;}" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Login color lib: demo, demo" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot; (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Ingresar form blockvalidation" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar form blockvalidation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplomail.com&quot;,&quot;valor1&quot;,&quot;valor1&quot;,&quot;02062020&quot;,&quot;http://www.valor.com&quot;,&quot;456&quot;,&quot;7&quot;" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar datos form: 222jjj, ejemplomail.com, valor1, valor1, 02062020, http://www.valor.com, 456, 7" width="1366"/>
+                <img src="c51a7eb8c57d27fb560653c29a2c884ca71e34c1d70e715a6cfb0584c1a43775.png" title=" Ingresar datos form: 222jjj, ejemplomail.com, valor1, valor1, 02062020, http://www.valor.com, 456, 7 (completed)" width="1366"/>
+                <img src="c51a7eb8c57d27fb560653c29a2c884ca71e34c1d70e715a6cfb0584c1a43775.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplomail.com&quot;,&quot;valor1&quot;,&quot;valor1&quot;,&quot;02062020&quot;,&quot;http://www.valor.com&quot;,&quot;456&quot;,&quot;7&quot; (completed)" width="1366"/>
+                <img src="c51a7eb8c57d27fb560653c29a2c884ca71e34c1d70e715a6cfb0584c1a43775.png" title=" Then Verifico que se presente un mensaje de error" width="1366"/>
+                <img src="c51a7eb8c57d27fb560653c29a2c884ca71e34c1d70e715a6cfb0584c1a43775.png" title=" Verificar ingreso datos con error" width="1366"/>
+                <img src="ad68156a6dcbef9fbc67c084d9619dea8947cebb858d5f6345131da53ce164bc.png" title=" Verificar ingreso datos con error (completed)" width="1366"/>
+                <img src="ad68156a6dcbef9fbc67c084d9619dea8947cebb858d5f6345131da53ce164bc.png" title=" Then Verifico que se presente un mensaje de error (completed)" width="1366"/>
+                <img src="ad68156a6dcbef9fbc67c084d9619dea8947cebb858d5f6345131da53ce164bc.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplomail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor1&quot;, Date=&quot;02062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;456&quot;, Range=&quot;7&quot;} (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplo4@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor2&quot;, Date=&quot;02062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;789&quot;, Range=&quot;13&quot;}" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Login color lib: demo, demo" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot; (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Ingresar form blockvalidation" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar form blockvalidation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplo4@mail.com&quot;,&quot;valor1&quot;,&quot;valor2&quot;,&quot;02062020&quot;,&quot;http://www.valor.com&quot;,&quot;789&quot;,&quot;13&quot;" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar datos form: 222jjj, ejemplo4@mail.com, valor1, valor2, 02062020, http://www.valor.com, 789, 13" width="1366"/>
+                <img src="6113ba88478efcc2539e3623d468fdfbaf957b99d941ce05f48ce7a2aeabe7f8.png" title=" Ingresar datos form: 222jjj, ejemplo4@mail.com, valor1, valor2, 02062020, http://www.valor.com, 789, 13 (completed)" width="1366"/>
+                <img src="6113ba88478efcc2539e3623d468fdfbaf957b99d941ce05f48ce7a2aeabe7f8.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplo4@mail.com&quot;,&quot;valor1&quot;,&quot;valor2&quot;,&quot;02062020&quot;,&quot;http://www.valor.com&quot;,&quot;789&quot;,&quot;13&quot; (completed)" width="1366"/>
+                <img src="6113ba88478efcc2539e3623d468fdfbaf957b99d941ce05f48ce7a2aeabe7f8.png" title=" Then Verifico que se presente un mensaje de error" width="1366"/>
+                <img src="6113ba88478efcc2539e3623d468fdfbaf957b99d941ce05f48ce7a2aeabe7f8.png" title=" Verificar ingreso datos con error" width="1366"/>
+                <img src="d0b4891ae7149c1e053f9772cb1ba95ec533623fd4ed2310a13e25c9287a546c.png" title=" Verificar ingreso datos con error (completed)" width="1366"/>
+                <img src="d0b4891ae7149c1e053f9772cb1ba95ec533623fd4ed2310a13e25c9287a546c.png" title=" Then Verifico que se presente un mensaje de error (completed)" width="1366"/>
+                <img src="d0b4891ae7149c1e053f9772cb1ba95ec533623fd4ed2310a13e25c9287a546c.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplo4@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor2&quot;, Date=&quot;02062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;789&quot;, Range=&quot;13&quot;} (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplo4@mail.com&quot;, Password1=&quot; &quot;, Password2=&quot;&quot;, Date=&quot;02062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;654&quot;, Range=&quot;16&quot;}" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Login color lib: demo, demo" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot; (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Ingresar form blockvalidation" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar form blockvalidation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplo4@mail.com&quot;,&quot; &quot;,&quot;&quot;,&quot;02062020&quot;,&quot;http://www.valor.com&quot;,&quot;654&quot;,&quot;16&quot;" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar datos form: 222jjj, ejemplo4@mail.com,  , , 02062020, http://www.valor.com, 654, 16" width="1366"/>
+                <img src="7271d1a304125349ba071d8137c305a318a8838abf8fee129fd2cba37b75bbe5.png" title=" Ingresar datos form: 222jjj, ejemplo4@mail.com,  , , 02062020, http://www.valor.com, 654, 16 (completed)" width="1366"/>
+                <img src="7271d1a304125349ba071d8137c305a318a8838abf8fee129fd2cba37b75bbe5.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplo4@mail.com&quot;,&quot; &quot;,&quot;&quot;,&quot;02062020&quot;,&quot;http://www.valor.com&quot;,&quot;654&quot;,&quot;16&quot; (completed)" width="1366"/>
+                <img src="7271d1a304125349ba071d8137c305a318a8838abf8fee129fd2cba37b75bbe5.png" title=" Then Verifico que se presente un mensaje de error" width="1366"/>
+                <img src="7271d1a304125349ba071d8137c305a318a8838abf8fee129fd2cba37b75bbe5.png" title=" Verificar ingreso datos con error" width="1366"/>
+                <img src="d24fc690134d1cc2409857f7cf3e99097a4a93a0b6f62ec88b3eeeb0ae39d678.png" title=" Verificar ingreso datos con error (completed)" width="1366"/>
+                <img src="d24fc690134d1cc2409857f7cf3e99097a4a93a0b6f62ec88b3eeeb0ae39d678.png" title=" Then Verifico que se presente un mensaje de error (completed)" width="1366"/>
+                <img src="d24fc690134d1cc2409857f7cf3e99097a4a93a0b6f62ec88b3eeeb0ae39d678.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplo4@mail.com&quot;, Password1=&quot; &quot;, Password2=&quot;&quot;, Date=&quot;02062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;654&quot;, Range=&quot;16&quot;} (completed)" width="1366"/>
+                <img src="a378cfdf62f71024776adad5eb6fd61bff86b41be55f780403099377ceaac7dd.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplo4@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor2&quot;, Date=&quot; &quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;321&quot;, Range=&quot;8&quot;}" width="1366"/>
+                <img src="a378cfdf62f71024776adad5eb6fd61bff86b41be55f780403099377ceaac7dd.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;" width="1366"/>
+                <img src="a378cfdf62f71024776adad5eb6fd61bff86b41be55f780403099377ceaac7dd.png" title=" Login color lib: demo, demo" width="1366"/>
+                <img src="a378cfdf62f71024776adad5eb6fd61bff86b41be55f780403099377ceaac7dd.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot; (completed)" width="1366"/>
+                <img src="a378cfdf62f71024776adad5eb6fd61bff86b41be55f780403099377ceaac7dd.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation" width="1366"/>
+                <img src="a378cfdf62f71024776adad5eb6fd61bff86b41be55f780403099377ceaac7dd.png" title=" Ingresar form blockvalidation" width="1366"/>
+                <img src="f76d48d2b9d2dcc5a2148d9e35416476234e4eeaea3bba3038c35754f8e13ec3.png" title=" Ingresar form blockvalidation (completed)" width="1366"/>
+                <img src="f76d48d2b9d2dcc5a2148d9e35416476234e4eeaea3bba3038c35754f8e13ec3.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation (completed)" width="1366"/>
+                <img src="f76d48d2b9d2dcc5a2148d9e35416476234e4eeaea3bba3038c35754f8e13ec3.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplo4@mail.com&quot;,&quot;valor1&quot;,&quot;valor2&quot;,&quot; &quot;,&quot;http://www.valor.com&quot;,&quot;321&quot;,&quot;8&quot;" width="1366"/>
+                <img src="f76d48d2b9d2dcc5a2148d9e35416476234e4eeaea3bba3038c35754f8e13ec3.png" title=" Ingresar datos form: 222jjj, ejemplo4@mail.com, valor1, valor2,  , http://www.valor.com, 321, 8" width="1366"/>
+                <img src="65e68b81642bdfeeff92618d97350a20475af0dcf71bd997b7383c9431223ddc.png" title=" Ingresar datos form: 222jjj, ejemplo4@mail.com, valor1, valor2,  , http://www.valor.com, 321, 8 (completed)" width="1366"/>
+                <img src="65e68b81642bdfeeff92618d97350a20475af0dcf71bd997b7383c9431223ddc.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplo4@mail.com&quot;,&quot;valor1&quot;,&quot;valor2&quot;,&quot; &quot;,&quot;http://www.valor.com&quot;,&quot;321&quot;,&quot;8&quot; (completed)" width="1366"/>
+                <img src="65e68b81642bdfeeff92618d97350a20475af0dcf71bd997b7383c9431223ddc.png" title=" Then Verifico que se presente un mensaje de error" width="1366"/>
+                <img src="65e68b81642bdfeeff92618d97350a20475af0dcf71bd997b7383c9431223ddc.png" title=" Verificar ingreso datos con error" width="1366"/>
+                <img src="e5d886c1c88914b4f263776f6b2c5d31d05ce2130ba91d39c10e0eaba3a210ea.png" title=" Verificar ingreso datos con error (completed)" width="1366"/>
+                <img src="e5d886c1c88914b4f263776f6b2c5d31d05ce2130ba91d39c10e0eaba3a210ea.png" title=" Then Verifico que se presente un mensaje de error (completed)" width="1366"/>
+                <img src="e5d886c1c88914b4f263776f6b2c5d31d05ce2130ba91d39c10e0eaba3a210ea.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplo4@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor2&quot;, Date=&quot; &quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;321&quot;, Range=&quot;8&quot;} (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplo4@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor2&quot;, Date=&quot;02062020&quot;, Url=&quot;www.valor.com&quot;, Digits Only=&quot; &quot;, Range=&quot;9&quot;}" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Login color lib: demo, demo" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot; (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Ingresar form blockvalidation" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar form blockvalidation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation (completed)" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplo4@mail.com&quot;,&quot;valor1&quot;,&quot;valor2&quot;,&quot;02062020&quot;,&quot;www.valor.com&quot;,&quot; &quot;,&quot;9&quot;" width="1366"/>
+                <img src="a2e01b03b5cbb665f44c8523061784bb2e2f96bc7b888e922fc3ae672df06abc.png" title=" Ingresar datos form: 222jjj, ejemplo4@mail.com, valor1, valor2, 02062020, www.valor.com,  , 9" width="1366"/>
+                <img src="6a892ca7e9214e4049f50bdd3e84b551116f7013865ce6a3f4493c22e577beb9.png" title=" Ingresar datos form: 222jjj, ejemplo4@mail.com, valor1, valor2, 02062020, www.valor.com,  , 9 (completed)" width="1366"/>
+                <img src="6a892ca7e9214e4049f50bdd3e84b551116f7013865ce6a3f4493c22e577beb9.png" title=" When Diligencio los campos &quot;222jjj&quot;,&quot;ejemplo4@mail.com&quot;,&quot;valor1&quot;,&quot;valor2&quot;,&quot;02062020&quot;,&quot;www.valor.com&quot;,&quot; &quot;,&quot;9&quot; (completed)" width="1366"/>
+                <img src="6a892ca7e9214e4049f50bdd3e84b551116f7013865ce6a3f4493c22e577beb9.png" title=" Then Verifico que se presente un mensaje de error" width="1366"/>
+                <img src="6a892ca7e9214e4049f50bdd3e84b551116f7013865ce6a3f4493c22e577beb9.png" title=" Verificar ingreso datos con error" width="1366"/>
+                <img src="bd8078a15b6fdd9cdcf8d7d36a0cfd4cd09eb2dd2acf008f5918de22c74ca404.png" title=" Verificar ingreso datos con error (completed)" width="1366"/>
+                <img src="bd8078a15b6fdd9cdcf8d7d36a0cfd4cd09eb2dd2acf008f5918de22c74ca404.png" title=" Then Verifico que se presente un mensaje de error (completed)" width="1366"/>
+                <img src="bd8078a15b6fdd9cdcf8d7d36a0cfd4cd09eb2dd2acf008f5918de22c74ca404.png" title=" Example: {Required=&quot;222jjj&quot;, Email=&quot;ejemplo4@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor2&quot;, Date=&quot;02062020&quot;, Url=&quot;www.valor.com&quot;, Digits Only=&quot; &quot;, Range=&quot;9&quot;} (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Example: {Required=&quot;unejemplo33&quot;, Email=&quot;ejemplo55.ejemplo@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor1&quot;, Date=&quot;03062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;985&quot;, Range=&quot;3&quot;}" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot;" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Login color lib: demo, demo" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Given Autentico en colorlib con usuario &quot;demo&quot; y clave &quot;demo&quot; (completed)" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation" width="1366"/>
+                <img src="30ef0d24deddee9b3e85e9fffe5f417bc8e632720d8b2fc2097f49b986fbec0c.png" title=" Ingresar form blockvalidation" width="1366"/>
+                <img src="65a4f72be14d49468553eac97aa0463850f8d855026f29ec01c8f05b98045948.png" title=" Ingresar form blockvalidation (completed)" width="1366"/>
+                <img src="65a4f72be14d49468553eac97aa0463850f8d855026f29ec01c8f05b98045948.png" title=" And Ingreso a la funcionalidad Forms Validation y Block Validation (completed)" width="1366"/>
+                <img src="65a4f72be14d49468553eac97aa0463850f8d855026f29ec01c8f05b98045948.png" title=" When Diligencio los campos &quot;unejemplo33&quot;,&quot;ejemplo55.ejemplo@mail.com&quot;,&quot;valor1&quot;,&quot;valor1&quot;,&quot;03062020&quot;,&quot;http://www.valor.com&quot;,&quot;985&quot;,&quot;3&quot;" width="1366"/>
+                <img src="65a4f72be14d49468553eac97aa0463850f8d855026f29ec01c8f05b98045948.png" title=" Ingresar datos form: unejemplo33, ejemplo55.ejemplo@mail.com, valor1, valor1, 03062020, http://www.valor.com, 985, 3" width="1366"/>
+                <img src="2bbef353c6ef8686833cfca106de8965b76f1243770a140aaf7940039d6e40cc.png" title=" Ingresar datos form: unejemplo33, ejemplo55.ejemplo@mail.com, valor1, valor1, 03062020, http://www.valor.com, 985, 3 (completed)" width="1366"/>
+                <img src="2bbef353c6ef8686833cfca106de8965b76f1243770a140aaf7940039d6e40cc.png" title=" When Diligencio los campos &quot;unejemplo33&quot;,&quot;ejemplo55.ejemplo@mail.com&quot;,&quot;valor1&quot;,&quot;valor1&quot;,&quot;03062020&quot;,&quot;http://www.valor.com&quot;,&quot;985&quot;,&quot;3&quot; (completed)" width="1366"/>
+                <img src="2bbef353c6ef8686833cfca106de8965b76f1243770a140aaf7940039d6e40cc.png" title=" Then Verifico que se presente un mensaje de error" width="1366"/>
+                <img src="2bbef353c6ef8686833cfca106de8965b76f1243770a140aaf7940039d6e40cc.png" title=" Verificar ingreso datos con error" width="1366"/>
+                <img src="2bbef353c6ef8686833cfca106de8965b76f1243770a140aaf7940039d6e40cc.png" title=" Verificar ingreso datos con error (completed)" width="1366"/>
+                <img src="2bbef353c6ef8686833cfca106de8965b76f1243770a140aaf7940039d6e40cc.png" title=" Then Verifico que se presente un mensaje de error (completed)" width="1366"/>
+                <img src="2bbef353c6ef8686833cfca106de8965b76f1243770a140aaf7940039d6e40cc.png" title=" Example: {Required=&quot;unejemplo33&quot;, Email=&quot;ejemplo55.ejemplo@mail.com&quot;, Password1=&quot;valor1&quot;, Password2=&quot;valor1&quot;, Date=&quot;03062020&quot;, Url=&quot;http://www.valor.com&quot;, Digits Only=&quot;985&quot;, Range=&quot;3&quot;} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.77</span>
+</div>
+</body>
+</html>
